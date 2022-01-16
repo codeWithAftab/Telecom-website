@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.head{
+    /* margin: 10px; */
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px;
+    background-color: purple;
+    font-size: x-large;
+    letter-spacing: 4px;
+    color: white;
+    text-align: center;
+    font-weight: 10;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 6vh;
+    margin-top: 2vh;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    margin: 3vh 5vh;
+}
+#more{
+    display: block;
+    color: rgb(4, 12, 128);
+    text-align: center;
+    font-size: x-large;
+}
+.services{
+    /* border:2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.online{
+    /* border: 2px solid red; */
+    margin: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+}
+.online img{
+    margin: 15px;
+}
+.online p{
+    /* border: 2px solid red; */
+    font-size: xx-large; 
+    display: block;
+    width: 20vw;
+    padding: 16px;
+}
+button{
+    font-size: 200%;
+    margin-top: 34px;
+    border-radius: 10px; 
+    padding: 20px;
+    background-color: purple;
+    color: white;
+}
+footer{
+    color: white;
+    
+   display: flex;
+   align-items: center;
+      
+    background-color: rgb(26, 25, 25);
+    
+}
+.foot{
+    color: white;
+    font-size: x-large;
+    background-color: rgb(26, 25, 25);
+}
+.fa {
+    padding: 1px;
+    position: relative;
+    left: 1500px;
+    
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa {
+    padding: 1px;
+    margin: 20px;
+    font-size: 20px;
+    width: 20px;
+    /* text-align: center; */
+    text-decoration: none;
+    border-radius: 50%;
+  }
